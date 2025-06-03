@@ -17,7 +17,8 @@ builder.Services.AddHttpClient();
 builder.Services.AddHostedService<DailyRateNotifier>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(Environment.GetEnvironmentVariable("DbConnectionString")));
+    options.UseNpgsql(Constants.DbConnectionString));
+
 
 
 
