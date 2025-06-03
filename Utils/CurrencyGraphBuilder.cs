@@ -1,4 +1,4 @@
-﻿using SixLabors.ImageSharp;
+using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Drawing.Processing;
@@ -44,8 +44,8 @@ namespace CurrencyExchanger.Utils
             image.Mutate(ctx =>
             {
                 ctx.Fill(Color.White);
-                var font = SystemFonts.CreateFont("Arial", 14);
-                var smallFont = SystemFonts.CreateFont("Arial", 12);
+                var font = SystemFonts.Families.First().CreateFont(14);
+                var smallFont = SystemFonts.Families.First().CreateFont(12);
 
                 var fromPoints = commonDates.Select((date, i) =>
                 {
