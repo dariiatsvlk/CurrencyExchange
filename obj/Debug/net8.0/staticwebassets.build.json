@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "utM1T9pUbNhsfOUg7V4MZKLTDrEnNtInSJ2krBSfW+Y=",
+  "Source": "CurrencyExchanger",
+  "BasePath": "_content/CurrencyExchanger",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
